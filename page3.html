@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coursses Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="page3.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search course name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('html')">
+         html
+        </button>
+        <button class="button-value" onclick="filterProduct('css')">
+         css
+        </button>
+        <button class="button-value" onclick="filterProduct('js')">
+          javascript
+        </button>
+        <button class="button-value" onclick="filterProduct('php')">
+          php
+        </button>
+      </div>
+      <div id="cr"></div>
+    </div>
+    <!-- Script -->
+    <script src="page3.js"></script>
+  </body>
+</html>

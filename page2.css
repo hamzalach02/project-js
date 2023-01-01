@@ -1,0 +1,92 @@
+  /* Container needed to position the button. Adjust the width as needed */
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    margin-top: 700px; ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  width: 200px;
+    font-size: 14px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 330px;
+    background-color: rgb(237, 232, 81);
+          cursor: pointer;
+          color: black;
+          border: none;
+          transition: opacity 0.15s;
+          font-weight: 700;
+          margin-top: 1200px;
+  }
+  
+  .container .btn:hover {
+      opacity: 30%;
+  }
+  .container .btn:active{
+      opacity: 70%;
+  }
+  html { 
+    background: url(page2/page2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .header{
+      
+  height:50px ;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(237, 232, 81);
+  border-bottom-width:1px ;
+  border-bottom-style:solid ;
+  border-bottom-color:rgb(237, 232, 81);
+  z-index: 100;
+  align-items: center;
+  
+  }
+  
+  
+  /**/
+  a {
+    box-shadow: inset 0 0 0 0 #57595a;
+    color:#57595a ;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #57595a;
+  }
+  
+  /* Presentational styles */
+  a {
+    padding: 4px;
+    border-radius: 2px;
+    color: #57595a;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
