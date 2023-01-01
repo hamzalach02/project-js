@@ -4,7 +4,7 @@ let products = {
         productName: "html",
         category: "html",
         title: "courses html for begginers",
-        image: "page3/img5.png",
+        image: "img5.png",
       },
       {
         productName: "HTML",
@@ -53,7 +53,7 @@ let products = {
         productName: "javascript",
         category: "js",
         title: "easy javascript",
-        image: "page3/img3.jpg",
+        image: "img3.jpg",
       },
       {
         productName: "php",
